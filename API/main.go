@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	file, err := os.Create("./tempfile.txt")
+	file, _ := os.Create("./tempfile.txt")
 	fmt.Println(file)
 	watcher, err := fsnotify.NewWatcher()
 	if err != nil {
