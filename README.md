@@ -35,7 +35,7 @@ Below Is the API Name with Parameter
 
  	http://localhost:8081/get-task-details
 
-Note : If you are using Postman to check output, kindly use above three API. 
+
 
 
 	
